@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="deleteList">
+        <item> GSM </item>
+        <item> UMTS </item>
+        <item> LTE </item>
+        <item> WIFI </item>
+    </string-array>
+
+    <string-array name="deleteListValues">
+        <item> GSM </item>
+        <item> UMTS </item>
+        <item> LTE </item>
+        <item> WIFI </item>
+    </string-array>
+
+
+    <string-array name="colorList">
+        <item> Blue </item>
+        <item> Yellow </item>
+        <item> Green </item>
+        <item> Red </item>
+        <item> Mixed </item>
+    </string-array>
+
+
+    <string-array name="colorListValues">
+        <item> Blue </item>
+        <item> Yellow </item>
+        <item> Green </item>
+        <item> Red </item>
+        <item> Mixed </item>
+    </string-array>
+
+    <string-array name="locationIntervalUpdateList">
+        <item> 15 sec </item>
+        <item> 30 sec </item>
+        <item> 50 sec </item>
+        <item>  1 min </item>
+        <item>  3 min </item>
+        <item>  5 min </item>
+
+    </string-array>
+
+    <string-array name="locationIntervalUpdateListValues">
+        <item> 15 </item>
+        <item> 30 </item>
+        <item> 50 </item>
+        <item> 60 </item>
+        <item> 180 </item>
+        <item> 300 </item>
+    </string-array>
+
+
+    <string-array name="mapIntervalUpdateList">
+        <item> 10 sec </item>
+        <item>  1 min </item>
+        <item>  1 hour </item>
+        <item>  1 day </item>
+
+    </string-array>
+
+    <string-array name="mapIntervalUpdateListValues">
+        <item> 10 </item>
+        <item> 60 </item>
+        <item> 3600  </item>
+        <item>  86400 </item>
+    </string-array>
+
+</resources>

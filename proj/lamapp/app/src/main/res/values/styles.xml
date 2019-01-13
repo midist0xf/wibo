@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- https://www.journaldev.com/22153/android-custom-alert-dialog-->
+    <style name="SettingDialogStyle" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+    <style name="PreferenceScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">#FF3F51B5</item>
+        <item name="colorAccent">#FF3F51B5</item>
+    </style>
+
+    <!-- https://android.jlelse.eu/the-complete-android-splash-screen-guide-c7db82bce565 -->
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+</resources>

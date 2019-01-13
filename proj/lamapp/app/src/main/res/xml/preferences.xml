@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen   xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory
+        android:key="update_category"
+        android:title="LOCATION UPDATE">
+
+
+        <SwitchPreference android:icon="@drawable/ic_baseline_cached_24px"
+            android:key="enable_background_update"
+            android:title="Enable background update"
+            android:summary="The application  get location updates also when is not in the foreground."
+            android:defaultValue="false">
+        </SwitchPreference>
+
+
+
+        <ListPreference android:icon="@drawable/ic_baseline_access_time_24px"
+            android:key="location_interval_update"
+            android:title="Choose location interval update"
+            android:summary="The location is updated using the chosen interval as the period."
+            android:entries="@array/locationIntervalUpdateList"
+            android:entryValues="@array/locationIntervalUpdateListValues"
+            android:defaultValue="@string/pref_location_interval_update_default"
+            >
+
+        </ListPreference>
+
+        <ListPreference android:icon="@drawable/ic_baseline_access_time_24px"
+            android:key="map_interval_update"
+            android:title="Choose map interval update"
+            android:summary="The map is updated only if the chosen interval is passed from the last time the user was in that area."
+            android:entries="@array/mapIntervalUpdateList"
+            android:entryValues="@array/mapIntervalUpdateListValues"
+            android:defaultValue="@string/pref_map_interval_update_default"/>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:icon="@null"
+        android:key="storage_category"
+        android:title="STORAGE">
+
+        <ListPreference android:icon="@drawable/ic_baseline_storage_24px"
+            android:key="delete_db_data"
+            android:title="Delete signal data"
+            android:summary="Deletes signal data from the database."
+            android:entries="@array/deleteList"
+            android:entryValues="@array/deleteListValues"
+            android:defaultValue="null">
+        </ListPreference>
+
+
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="map_category"
+        android:title="MAP">
+
+        <ListPreference
+            android:icon="@drawable/ic_baseline_color_lens_24px"
+            android:key="change_map_color"
+            android:title="Change gradient color"
+            android:summary="Changes gradient color."
+            android:entries="@array/colorList"
+            android:entryValues="@array/colorListValues"
+            android:defaultValue="@string/pref_change_map_color_default">
+        </ListPreference>
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/connection_type"
+        android:icon="@drawable/ic_baseline_cell_wifi_24px"
+        android:title="@string/connection_type"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_settings_20px"
+        android:title="@string/settings"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+    <!-- Settings, should always be in the overflow -->
+
+</menu>

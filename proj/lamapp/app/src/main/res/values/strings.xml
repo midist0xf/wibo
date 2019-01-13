@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">lamapp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="reminder">reminder</string>
+    <string name="send_screenshot">Send screenshot</string>
+    <string name="wifi">WIFI</string>
+    <string name="umts">UMTS</string>
+    <string name="lte">LTE</string>
+
+    <string name="settings">Settings</string>
+    <string name="connection_type">Connection Type</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="positionUpdateIntervalText">Position update interval</string>
+    <string name="signalAreaUpdateInterval">Map update interval</string>
+    <string name="deleteSavedSignalAreaText">Delete saved map data</string>
+
+    <string name="pref_change_map_color_default"> mixed</string>
+    <string name="pref_location_interval_update_default"> 15 </string>
+    <string name="pref_map_interval_update_default">10 </string>
+
+    <string name="wibo">Wibo</string>
+</resources>
